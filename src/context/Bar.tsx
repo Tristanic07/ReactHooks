@@ -1,7 +1,6 @@
 import { useState } from "react";
 const Bar = () => {
   const [count, setCount] = useState(0);
-  const [selected, setSelected] = useState(false);
 
   function buttonHandleClick(buttonValue: string) {
     switch (buttonValue) {
@@ -28,6 +27,7 @@ const Bar = () => {
   return (
     <div className="flex flex-col gap-10 justify-center items-center h-full px-5 min-h-screen">
       <h1 className="text-4xl font-bold text-blue-700">useState</h1>
+      <p className="text-2xl  text-blue-700">{count}</p>
       <div className="h-56 w-600 border-2 border-gray-700 flex">
         {renderBars()}
       </div>
