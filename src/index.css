@@ -31,3 +31,15 @@
     width: 100px;
     background-color: gray;
 }
+
+.flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scary-text {
+	color: #af111c;
+	font-family: Chiller;
+  
+}

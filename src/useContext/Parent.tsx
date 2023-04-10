@@ -8,7 +8,7 @@ const Parent = () => {
 
   return (
     <CountContext.Provider value={count}>
-      <div className="flex flex-col justify-center items-center h-screen gap-2 bg-gray-100 ">
+      <div className=" flex-col flexcenter h-screen gap-2 bg-gray-100 ">
         <h1 className="text-4xl font-bold text-blue-700">useContext</h1>
         <Child1 />
         <h1 className="text-xl text-blue-950">{count}</h1>
