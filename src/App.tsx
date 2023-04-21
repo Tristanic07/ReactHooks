@@ -1,6 +1,7 @@
 import Bar from "./context/Bar";
 import Parent from "./useContext/Parent";
 import UseEffectPractice from "./useEffect/UseEffectPractice";
+import UseReducer from "./useReducer/UseReducer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <UseEffectPractice />
       <Bar />
       <Parent />
+      <UseReducer />
     </div>
   );
 }
